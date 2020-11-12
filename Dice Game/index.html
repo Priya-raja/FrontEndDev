@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Roll Dice</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Player 1 Turn</h1>
+            <div class="players">
+                <div id="player1">
+                    <h1> Score:
+                        <span id="player1scoreboard">0</span>
+                    </h1>
+                    <div id="player1Dice" class="dice active">-</div>
+                </div>
+               <div id="player2">
+                   <h1> Score:
+                       <span id="player2scoreboard">0</span>
+                   </h1>
+                   <div id="player2Dice" class="dice">-</div>
+               </div>
+            </div>
+            <button id="rolldice">Roll Dice 🎲</button>
+            <button id="resetbtn">Reset game 🔁</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
