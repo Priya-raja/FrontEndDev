@@ -9,3 +9,8 @@ I've learned how to think logically and apply javascript and positioning in css.
 
 ### November 11: R1 Day 11 Made a carousel slider in css and javascript.
  I've learned about keyframes and more of javascript. Spent some time in learning the logic of carousel slider.
+ 
+ ### November 12: R1 Day 12 Coded a board for Dice game in html and css.
+ I learned more of CSS and organizing it for a clear understanding.
+ 
+ 
