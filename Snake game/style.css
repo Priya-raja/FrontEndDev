@@ -4,6 +4,8 @@ html,body {
 }
 
 .grid {
+    display: flex;
+    flex-wrap: wrap;
      width: 200px;
      height: 200px;
      border: 2px solid black;
@@ -11,7 +13,14 @@ html,body {
 }
 
 /* divs inside of grid */
-.grid div {
+.square {
+    
     width: 20px;
     height: 20px;
+      
+}
+
+.snake {
+
+    background-color:darkblue;
 }
