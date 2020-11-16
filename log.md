@@ -13,4 +13,15 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### November 12: R1 Day 12 Coded a board for Dice game in html and css.
  I learned more of CSS and organizing it for a clear understanding.
  
+ ### November 13: R1 Day13 Completed the board game and javascript functionalities.
+ It was a good practise with javascript.
+ 
+ ### November 14: R1 Day14 Started a new Snake Game.
+ Learning: Set up a board for snake game. Created 100 divs using javascript.
+ 
+ ### November 15: R1 Day15 Made a snake in css and javascript to move it.
+ Learning: Learned about the logic about how to move the snake on the board and change diections.
+ 
+ 
+ 
  
