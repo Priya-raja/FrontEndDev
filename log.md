@@ -20,7 +20,15 @@ I've learned how to think logically and apply javascript and positioning in css.
  Learning: Set up a board for snake game. Created 100 divs using javascript.
  
  ### November 15: R1 Day15 Made a snake in css and javascript to move it.
- Learning: Learned about the logic about how to move the snake on the board and change diections.
+ Learning: Learned about the logic about how to move the snake on the board and change directions.
+ 
+ ### November 16: R1Day16 Completed the snake game logic following Ania Kubow lessons
+ Learned: Updated the score board and to code the logic in start n reset button.
+          good muscle exercise in javascript. Need some more practice in javascript.
+          
+ ### November 17: R1Day17 Started learning Responsive Designing.
+ Learning:Learned about rem,em and percentage in css styling.
+          
  
  
  
