@@ -1,0 +1,54 @@
+.card {
+    background-color: black;
+    color: white;
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 18px;
+
+}
+
+.accent-color{
+    color: yellow;
+}
+p {
+    font-size: 18px;
+}
+
+h1 {
+
+    font-size: 3rem;
+    margin-bottom: 2em;
+}
+
+a {
+    color: black;
+}
+.button {
+    text-align: center;
+    padding:.5em 1.25em;  /*use em for padding */
+    display: inline-block;
+    margin-bottom: 50px;
+    background-color: yellow;
+    text-decoration: none;
+    color:black;
+}
+
+.button:hover {
+
+    background: orange;
+}
+
+.btn-small {
+    font-size: 1rem; /*use rem for buttons */
+
+}
+
+.btn-big {
+font-size: 3rem; /* the size is 3 times of parents class */
+}
+
+.links {
+    margin-bottom: 0;
+    margin-top: 0;
+}
