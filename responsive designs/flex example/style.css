@@ -2,8 +2,25 @@ body {
     font-size: 1.125rem;
     color: #707070;
     margin: 0;
+    background: pink;
 }
 
+@media (max-width: 400px) and (orientation: landscape) {
+    .container{
+        flex-direction: column;
+    }
+}
+/*minimum width 600 and bigger */
+@media (min-width: 600px) and (max-width: 659px) {
+    body {
+        background: purple;
+    }
+   .col-1,
+   .col-2,
+   .col-3 {
+       width: 100%;
+   }
+}
 /* Typography */
 
 h1 {
