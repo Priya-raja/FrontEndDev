@@ -28,6 +28,16 @@ I've learned how to think logically and apply javascript and positioning in css.
           
  ### November 17: R1Day17 Started learning Responsive Designing.
  Learning:Learned about rem,em and percentage in css styling.
+ 
+ ### November 18: R1Day18 Created Navigation and learned about flexbox.
+ Learning: Flexbox makes it easier for styling and responsive
+ 
+ ### November 19: R1Day19 Completed Navigation styling and played around with flexbox. Set up a blog page structure
+ Learning: Blog page to be responsive. More flexbox practise
+ 
+ 
+ 
+ 
           
  
  
