@@ -35,6 +35,9 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### November 19: R1Day19 Completed Navigation styling and played around with flexbox. Set up a blog page structure
  Learning: Blog page to be responsive. More flexbox practise
  
+ ### November 20: R1Day20 Started with CSS for the blog website.
+ Learning: Got to know some more flexbox code
+ 
  
  
  
