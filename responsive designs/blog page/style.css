@@ -1,8 +1,19 @@
+/*  Fonts
+-----
+font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
 body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 /* =================
@@ -15,12 +26,8 @@ h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+    margin: 0;
 }
-img {
-    max-width: 100%;
-    display: block;
-}
-
 
 h1 {
     font-size: 2rem;
@@ -69,6 +76,9 @@ strong {
     text-decoration: underline;
 }
 
+.article-info {
+    margin: 2em 0;
+}
 
 
 /* =================
@@ -83,6 +93,7 @@ Layout
 
 .container-flex {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -105,9 +116,6 @@ header {
         width: 20%;
     }
 }
-
-
-
 
 /* navigation */
 
@@ -151,3 +159,23 @@ nav a:focus {
         margin: .5em 0;
     }
 }
+
+/* articles */
+
+.article-featured {
+    border-bottom: #707070 1px solid;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.article-recent-main {
+    order: 2;
+}
+
+.article-recent-secondary {
+    order: 1;
+}
+
+
+
+
