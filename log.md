@@ -37,6 +37,17 @@ I've learned how to think logically and apply javascript and positioning in css.
  
  ### November 20: R1Day20 Started with CSS for the blog website.
  Learning: Got to know some more flexbox code
+
+ ### November 21: R1Day21 Making the home page responsive.
+ Learning: Styled images and articles in blog post.
+
+ ### November 22: R1Day22 Changed the order of contents and some loose ends in the blogs site
+ Learning: Learned a new thing in css to change order of images and contents in the blog.
+
+ ### November 23: R1Day23 Wrote animation for juggling balls
+ Learning: practised keyframes in javascript and animation.
+
+
  
  
  
