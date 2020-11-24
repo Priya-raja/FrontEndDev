@@ -80,6 +80,15 @@ strong {
     margin: 2em 0;
 }
 
+.widget-title {
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+
+
+
 
 /* =================
 Layout
@@ -227,7 +236,24 @@ nav a:focus {
     padding: 1em;
 }
 
+.widget-recent-post {
 
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 1em;
+
+}
+
+.widget-recent-post:last-child {
+    border: 0;
+    margin: 0;
+}
+
+
+.widget-image {
+    order: -1;
+}
 
 
 
