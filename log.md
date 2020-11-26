@@ -47,6 +47,13 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### November 23: R1Day23 Wrote animation for juggling balls
  Learning: practised keyframes in javascript and animation.
 
+ ### November 24: R1Day24 Started with flexbox challenges image collage
+ Learning: Learned to use a different kind of responsive designing.
+ 
+ ### November 25: R1Day25 Completed a blog website
+ Learning: Added pages in blog website and finished the image collage
+ Was difficult to complete the responsive collage.
+
 
  
  
