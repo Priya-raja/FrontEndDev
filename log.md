@@ -53,6 +53,12 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### November 25: R1Day25 Completed a blog website
  Learning: Added pages in blog website and finished the image collage
  Was difficult to complete the responsive collage.
+ 
+ ### November 26: R1Day26 Read about weekly dev challenge and started with blog post
+ LEarning: Added flex and played with displaying a responsive blog post.
+ 
+ ### November 27: R1Day27 Completed displaying a blog post in grid
+ Learning: Getting perfect at flex.
 
 
  
