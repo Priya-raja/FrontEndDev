@@ -57,10 +57,14 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### November 26: R1Day26 Read about weekly dev challenge and started with blog post
  LEarning: Added flex and played with displaying a responsive blog post.
  
- ### November 27: R1Day27 Completed displaying a blog post in grid
+ ### November 27: R1Day27 Completed displaying a blog post in grid.
  Learning: Getting perfect at flex.
 
-
+ ### November 28: R1Day28 Started Navbar challenge. 
+ Learning: Completed Horizontal navbar,working at vertical navbar.
+ 
+ ### November 29: R1Day29 Completed the responsive navbar challenge
+ Learning: Learned how to display the mobile and desktop navbars and made responsive.
  
  
  
