@@ -66,6 +66,10 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### November 29: R1Day29 Completed the responsive navbar challenge
  Learning: Learned how to display the mobile and desktop navbars and made responsive.
  
+ ### November 30: R1Day30 flexbox challenges like stair css and flashing card
+ Learning: learned about align-self in flexbox to design stair css.
+ 
+ 
  
  
  
