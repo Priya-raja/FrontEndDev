@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    display: flex;
+}
+
+h1 {
+    font-size:2.25rem;
+}
+
+h2 {
+    font-size: 1.3125rem;
+}
+strong {
+    color: #FFF;
+}
+.intro {
+   background-image: url("images/bbq.jpg");
+   background-position: center;
+   padding: 200px 100px;
+   background-repeat: no-repeat;
+}
+
+.top-text {
+    color: #F18119;
+}
+.intro-bottom {
+    color:#F18119;
+}
