@@ -69,6 +69,13 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### November 30: R1Day30 flexbox challenges like stair css and flashing card
  Learning: learned about align-self in flexbox to design stair css.
  
+ ### December 1: R1Day31 Started BBQ spalsh page.
+ Learning: Learned about some tricks in flexbox.
+ 
+ ### December 2: R1Day32 Completed WEB dev challenge
+ Learning: It took long hours to do this learned how to make responsive images.
+ 
+ 
  
  
  
