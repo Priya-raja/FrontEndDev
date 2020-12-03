@@ -46,12 +46,14 @@ strong {
 .intro {
    color:#404040;
    margin: 0;
-   background-image: url("images/ribs.jpg");
+   background-image: url("images/ribs.jpg"),linear-gradient(45deg,red,blue);
+   background-blend-mode: multiply;
    background-size: cover;
    background-position: center;
    padding: 0 2em 2em;
    display: flex;
    flex-direction: column;
+   justify-content: space-between;
   
 }
 
@@ -61,17 +63,76 @@ strong {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 1px;
-    width: 20%;
+    
     align-self: center;
     margin: 0;
-    padding-top: 0.8em;
-    border-top: 0.5em solid #F18119;
+    padding-top: 2px;
+    border-top: 5px solid #F18119;
     order: -1;
+    border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
 }
 .fine-print {
     font-size: 0.625rem;
     letter-spacing: 1px;
 }
+
+.intro > *,
+.main-content > * {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Forms */
+
+.email-collector {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 300px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.7em;
+    border: 1px solid #404040;
+    text-align: inherit;
+    font-family: inherit;
+}
+
+input, 
+.btn {
+
+    
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn {
+
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    padding: 1em 1.5em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+}
+.btn-primary {
+
+    background: linear-gradient(90deg,#ffa51d,#ff713b);
+    color: white;
+    transition: 500ms;
+}
+
+.btn-primary:hover {
+    color: black;
+
+}
+
+
 
 /* =================
    main-content section 
