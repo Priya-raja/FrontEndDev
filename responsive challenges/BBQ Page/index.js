@@ -3,8 +3,19 @@ let emailCollectorForm = document.getElementById("Email-Collector")
                 event.preventDefault()
                 // Do something with the event
                 console.log("The event is firing!")
-
+                
                 let ourFormData = new FormData(event.target)
                 
-                console.log(ourFormData)
+                let userFirstName = ourFormData.get("firstName")
+                
+                let updatedHtmlContent = `
+                    <h2>Congratulations, ${userFirstName}!</h2>
+
+                    <p>You're on your way to becoming a BBQ Master!</p>
+                    
+                    <p class="fine-print">We'll never share your information without your permission</p>
+                `
+                let ourMainContent = document.getElementById("Main-Content")
+                ourMainContent.innerHTML = updatedHtmlContent
             })
+            
