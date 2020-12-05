@@ -7,6 +7,7 @@ let emailCollectorForm = document.getElementById("Email-Collector")
                 let ourFormData = new FormData(event.target)
                 
                 let userFirstName = ourFormData.get("firstName")
+                let userEmailAddress = ourFormData.get("emailAddress")
                 
                 let updatedHtmlContent = `
                     <h2>Congratulations, ${userFirstName}!</h2>
