@@ -75,6 +75,22 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### December 2: R1Day32 Completed WEB dev challenge
  Learning: It took long hours to do this learned how to make responsive images.
  
+ ### December 3: R1Day33 Added more CSS to BBQ restaurant page.
+ Learning: learned more CSS about background blend mode and css transforms.
+ 
+ ### December 4: R1Day34 BBQ restaurant page added gradient for buttons and borders.
+ Learning: I used gradients for the main page and borders and buttons was new to learn in CSS.
+ 
+ ### December 5: R1Day35 BBq restaurant page collected form data and started with ES6
+ Learning: Leaarned how to use javascript to get form data and display.
+ 
+ ### December 6: R1Day36 coded few exercises in arrow functions ES6
+ Learning: It took time to understand the detsructuring objects but arrow function was easy.
+ 
+ 
+ 
+ 
+ 
  
  
  
