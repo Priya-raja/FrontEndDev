@@ -1,7 +1,9 @@
+
 function eatBreakfast() {
 
     return "I am eating eggs"
 }
+
 
 
 const lunch = function() {
@@ -23,4 +25,4 @@ const dinner = (food) => `I will eat ${food}`;
 
 const leadsinger = (artist="someone") =>`${artist} is the singer`;
 
-console.log(leadsinger());  //default parameter
+//console.log(leadsinger());  //default parameter
