@@ -19,4 +19,8 @@ const lunch = function() {
 
 const dinner = (food) => `I will eat ${food}`;
 
-console.log(dinner("idli"))
+//console.log(dinner("idli"))
+
+const leadsinger = (artist="someone") =>`${artist} is the singer`;
+
+console.log(leadsinger());  //default parameter
