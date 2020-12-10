@@ -87,7 +87,18 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### December 6: R1Day36 coded few exercises in arrow functions ES6
  Learning: It took time to understand the detsructuring objects but arrow function was easy.
  
+ ### December 7: R1Day37 coded few exercises in classes ES6
+ Learning: I learned how to use classes and extend in JS
  
+ ### December 8: R1Day38 Did Promise,Import and Export in ES6
+ Learning: Took lot of time to make import and export work in local machine.
+ Had to make changes in package.json file.
+ 
+ ### December 9: R1Day39 Pad start PadEnd, Fetch in javascript and joined Codewars
+ Learning:Did some googling to solve codewars exercises.
+ 
+ ### December 10: R1Day40 Asyncronous function in ES6
+ Learning: Learned well how to use promise,async and await in ES6.
  
  
  
