@@ -1,4 +1,4 @@
-function caseInsensitivePalindrome(str) {
+/*function caseInsensitivePalindrome(str) {
     const caselessStr = str.toLowerCase();
     // const reversedCaselessStr = caselessStr.split('').reverse().join(''); 
     let reversedCaselessStr = '';
@@ -8,9 +8,19 @@ function caseInsensitivePalindrome(str) {
     }
     
     return caselessStr === reversedCaselessStr;
+} */
+
+function caseInsensitivePalindrome(str) {
+    // make str case 
+    const strCase = str.toLowerCase();
+    const strChar = strCase.split('').reverse().join('');
+    if(strChar === strCase){
+        console.log('Its a palindrome')
+        
+    }
+   
 }
-
-
+caseInsensitivePalindrome('AaBaa')
 
 /**
 * Test Suite 
@@ -18,13 +28,13 @@ function caseInsensitivePalindrome(str) {
 //describe('caseInsensitivePalindrome()', () => {
   //  it('returns true for a case insensitive palindrome', () => {
         // arrange
-        const str = 'AaBaa';
+        //const str = 'AaBaa';
         
         // act
-        const result = caseInsensitivePalindrome(str);
+        //const result = caseInsensitivePalindrome(str);
 
         // log
-        console.log("result 1: ", result);
+        //console.log("result 1: ", result);
         
         // assert
        // expect(result).toBe(true);
