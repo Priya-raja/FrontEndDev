@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "stringify": "^5.2.0"
+  }
+}
