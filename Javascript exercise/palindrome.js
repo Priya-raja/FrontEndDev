@@ -18,7 +18,6 @@ function caseInsensitivePalindrome(str) {
         console.log('Its a palindrome')
         
     }
-   
 }
 caseInsensitivePalindrome('AaBaa')
 
