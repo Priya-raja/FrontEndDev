@@ -47,13 +47,15 @@ function createBoard() {
         grid.appendChild(square);
         squares.push(square);
 //if condition
-        if (layout[i] === 0) {
-            squares[i].classList.add('pac-dot')
-        } else if (layout[i] === 1) {
-            squares[i].classList.add('wall')
-        } else if (layout[i] === 3) {
-            squares[i].classList.add('power-pellet')
-        }
+if (layout[i] === 0) {
+    squares[i].classList.add('pac-dot')
+} else if (layout[i] === 1) {
+    squares[i].classList.add('wall')
+} else if (layout[i] === 2) {
+    squares[i].classList.add('ghost-lair')
+} else if (layout[i] === 3) {
+    squares[i].classList.add('power-pellet')
+}
     } 
 }
 
@@ -69,37 +71,48 @@ function control(e) {
     squares[pacmanCurrentIndex].classList.remove('pacman')
     switch(e.keyCode) {
         case 40:
-            if (
-                !squares[pacmanCurrentIndex + width].classList.contains('wall') &&
-                pacmanCurrentIndex + width < width * width
-                ) 
-                pacmanCurrentIndex += width
-            break
-            case 38:
-            console.log('pressed up')
-            if (
-                !squares[pacmanCurrentIndex - width].classList.contains('wall') &&
-                pacmanCurrentIndex - width >=0
-                ) 
-                pacmanCurrentIndex -= width
-            break
-            case 37: 
-            console.log('pressed left')
-            if( 
-                !squares[pacmanCurrentIndex -1].classList.contains('wall') &&
-                pacmanCurrentIndex % width !==0
-                ) 
-                pacmanCurrentIndex -=1
-            break
-            case 39:
-            console.log('pressed right')
-            if(
-                !squares[pacmanCurrentIndex +1].classList.contains('wall') &&
-                pacmanCurrentIndex % width < width -1
-                ) 
-                pacmanCurrentIndex +=1
-            break
-        }
-        squares[pacmanCurrentIndex].classList.add('pacman')
+        console.log('pressed down')
+        if (
+            !squares[pacmanCurrentIndex + width].classList.contains('ghost-lair') &&
+            !squares[pacmanCurrentIndex + width].classList.contains('wall') &&
+            pacmanCurrentIndex + width < width * width
+            ) 
+            pacmanCurrentIndex += width
+        break
+        case 38:
+        console.log('pressed up')
+        if (
+            !squares[pacmanCurrentIndex -width].classList.contains('ghost-lair') &&
+            !squares[pacmanCurrentIndex - width].classList.contains('wall') &&
+            pacmanCurrentIndex - width >=0
+            ) 
+            pacmanCurrentIndex -= width
+        break
+        case 37: 
+        console.log('pressed left')
+        if( 
+            !squares[pacmanCurrentIndex -1].classList.contains('ghost-lair') &&
+            !squares[pacmanCurrentIndex -1].classList.contains('wall') &&
+            pacmanCurrentIndex % width !==0
+            ) 
+            pacmanCurrentIndex -=1
+            if (pacmanCurrentIndex === 364) {
+                pacmanCurrentIndex = 391
+            }
+        break
+        case 39:
+        console.log('pressed right')
+        if(
+            !squares[pacmanCurrentIndex +1].classList.contains('ghost-lair') &&
+            !squares[pacmanCurrentIndex +1].classList.contains('wall') &&
+            pacmanCurrentIndex % width < width -1
+            ) 
+            pacmanCurrentIndex +=1
+            if (pacmanCurrentIndex === 391) {
+                pacmanCurrentIndex = 364
+            }
+        break
     }
-    document.addEventListener('keyup', control)
+    squares[pacmanCurrentIndex].classList.add('pacman')
+}
+document.addEventListener('keyup', control)
