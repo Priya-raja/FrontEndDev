@@ -64,8 +64,28 @@ squares[currentPacmanIndex].classList.add('pacman');
 
 function control(e) {
 
-    if(e.keyCode === 40) {
-        console.log("Key Pressed")
-    }
+    // if(e.keyCode === 40) {
+    //     console.log("Key Pressed")
+    // }
+
+   //use switch statements
+
+   switch(e.keyCode) {
+       case 40 :
+       console.log("key down")
+       break
+
+       case 38:
+       console.log('key pressed')
+       break
+       
+       case 37:
+       console.log('pressed left') 
+       
+       case 39:
+       console.log('press right')    
+    
+   }
+
 }
 document.addEventListener('keyup',control)
