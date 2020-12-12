@@ -59,33 +59,32 @@ function createBoard() {
 
 createBoard();
 
-const currentPacmanIndex = 490;
-squares[currentPacmanIndex].classList.add('pacman');
-
-function control(e) {
-
-    // if(e.keyCode === 40) {
-    //     console.log("Key Pressed")
-    // }
-
    //use switch statements
 
-   switch(e.keyCode) {
-       case 40 :
-       console.log("key down")
-       break
+   //starting position of pacman 
+let pacmanCurrentIndex = 490
+squares[pacmanCurrentIndex].classList.add('pacman')
 
-       case 38:
-       console.log('key pressed')
-       break
-       
-       case 37:
-       console.log('pressed left') 
-       
-       case 39:
-       console.log('press right')    
-    
-   }
-
+function control(e) {
+    squares[pacmanCurrentIndex].classList.remove('pacman')
+    switch(e.keyCode) {
+        case 40:
+        console.log('pressed down')
+        if (pacmanCurrentIndex + width < width * width) pacmanCurrentIndex += width
+        break
+        case 38:
+        console.log('pressed up')
+        if (pacmanCurrentIndex - width >=0) pacmanCurrentIndex -= width
+        break
+        case 37: 
+        console.log('pressed left')
+        if( pacmanCurrentIndex % width !==0) pacmanCurrentIndex -=1
+        break
+        case 39:
+        console.log('pressed right')
+        if(pacmanCurrentIndex % width < width -1) pacmanCurrentIndex +=1
+        break
+    }
+    squares[pacmanCurrentIndex].classList.add('pacman')
 }
-document.addEventListener('keyup',control)
+document.addEventListener('keyup', control)
