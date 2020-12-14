@@ -150,3 +150,22 @@ const ghosts = [
 
 ghosts.forEach(ghost => squares[ghost.startIndex].classList.add(ghost.className))
 
+ghosts.forEach(ghost => moveGhost(ghost))
+
+function moveGhost(ghost) {
+    console.log('moved ghost')
+    const directions = [-1, +1, -width, +width]
+    let direction = directions[Math.floor(Math.random() * directions.length)]
+    console.log(direction)
+
+    ghost.timerId = setInterval(function() {
+        //all our code
+        //remove any ghost
+        squares[ghost.currentIndex].classList.remove(ghost.className)
+        //add direction to current Index
+        ghost.currentIndex += direction
+        //add ghost class
+        squares[ghost.currentIndex].classList.add(ghost.className)
+    }, ghost.speed )
+    
+}
