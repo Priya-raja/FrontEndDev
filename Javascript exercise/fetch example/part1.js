@@ -1,13 +1,13 @@
 const fetch = require("node-fetch");
-fetch('https://www.positivityblog.com/').then( response => {
-    console.log(response.text())
-})
-.then (data => {
-    console.log(data.json())
-})
+// fetch('https://www.positivityblog.com/').then( response => {
+//     console.log(response.text())
+// })
+// .then (data => {
+//     console.log(data.json())
+// })
 
-fetch('people.json')
-    .then( res => res.json())
+fetch('https://jsonplaceholder.typicode.com/photos/1')
+    .then( res => {throw 404} )
     .then( json => {
         json.forEach( person => {
             const div = document.createElement('div');
@@ -15,3 +15,4 @@ fetch('people.json')
             document.body.appendChild(div);
         })
     })
+    .catch(err => console.log(err));
