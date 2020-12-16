@@ -1,45 +1,61 @@
 html, body {
     margin: 10;
     padding: 10;
+    overflow: hidden;
+    background-color: black;;
 }
 
 .grid {
     display: flex;
     flex-wrap: wrap;
     width: 420px;
-    height: 420px;
+    height: 410px;
+    margin: 0 auto;
     border: solid black;
+    box-shadow: 10px 10px 5px grey;
+    
 }
 
 .grid div {
     width: 15px;
     height: 15px;
-  
-   
     
+      
 }
-
+.name {
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(4, 0, 255);
+    width: 100px;
+    height: 20px;
+    margin:0 auto;
+    text-shadow: 2px 2px 2px white;
+   
+}
+h3 {
+    color: rgb(4, 0, 255);
+}
 .pac-dot {
-    background-color: black;
-    border: 5px solid white;
+    background-color: green;
+    border: 5px solid black;
     box-sizing: border-box;
 }
 
 .wall {
-    background-color:blue;
+    background-color: blue;
+    
 }
 
 .power-pellet {
-    background-color: darkgreen;
+    background-color: green;
     border-radius: 7.5px;
 }
 
 .pacman {
-    /* background-color: yellow; */
-    background-color: crimson;
+    background-color: orange;
     border-radius: 7.5px;
     border: none;
-
 }
 
 .blinky {
@@ -53,11 +69,100 @@ html, body {
 }
 
 .inky {
-    background-color:aqua;
+    background-color: aqua;
     border: none;
 }
 
 .clyde {
     background-color: orange;
     border: none;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+    border: none;
+}
+
+/* ghosts */
+
+.blinky1{ background-color: red;}
+.clyde1{ background-color: orange;}
+.inky1{ background-color: cyan;}
+.pinky1{ background-color: pink;}
+
+.ghost1{
+  border-radius: 100% 100% 0 0;
+  display: inline-block;
+  height: 90px;
+  margin: 20px;
+  
+  position: relative;
+  width: 90px;
+}
+
+.eyes{
+  height: 30px;
+  left: 50%;
+  margin-left: -40px;
+  position: absolute;
+  width: 50px;
+  top: 50px;
+}
+
+.eye{
+  background: #fff;
+  border-radius: 100%;
+  height: 30px;
+  width: 20px;
+}
+
+.iris{
+  background: blue;
+  border-radius: 100%;
+  height: 20px;
+  position: absolute;
+  width: 15px;
+  top: 5px;
+}
+
+.leftEye{ float: left; }
+.leftEye .iris{ left: 5px; }
+
+.rightEye{float: right; }
+.rightEye .iris{ right: 5px; }
+
+.ghostTail{
+  background-repeat: repeat-x;
+  bottom: -20px;
+  height: 20px;
+  position: absolute;
+  width: 90px;
+}
+
+.blinky1 .ghostTail{
+  background:
+    linear-gradient(-45deg, transparent 75%, red 75%) 0 50%,
+    linear-gradient( 45deg, transparent 75%, red 75%) 0 50%;
+  background-size:20px 20px, 20px 20px;
+}
+
+.clyde1 .ghostTail{
+  background:
+    linear-gradient(-45deg, transparent 75%, orange 75%) 0 50%,
+    linear-gradient( 45deg, transparent 75%, orange 75%) 0 50%;
+  background-size:20px 20px, 20px 20px;
+}
+
+.inky1 .ghostTail{
+  background:
+    linear-gradient(-45deg, transparent 75%, cyan 75%) 0 50%,
+    linear-gradient( 45deg, transparent 75%, cyan 75%) 0 50%;
+  background-size:20px 20px, 20px 20px;
+}
+
+.pinky1 .ghostTail{
+  background:
+    linear-gradient(-45deg, transparent 75%, pink 75%) 0 50%,
+    linear-gradient( 45deg, transparent 75%, pink 75%) 0 50%;
+  background-size:20px 20px, 20px 20px;
 }

@@ -3,7 +3,6 @@ const grid = document.querySelector('.grid');
 const scoreDisplay = document.getElementById('score')
 const squares = [];
 let score = 0
-
 //28 * 28 = 784
   // 0 - pac-dots
   // 1 - wall
@@ -11,7 +10,7 @@ let score = 0
   // 3 - power-pellet
   // 4 - empty
 
-const layout = [
+  const layout = [
     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
     1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,
     1,0,1,1,1,1,0,1,1,1,1,1,0,1,1,0,1,1,1,1,1,0,1,1,1,1,0,1,
@@ -41,7 +40,6 @@ const layout = [
     1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1 
 ]
-
 function createBoard() {
     for (let i =0; i < layout.length; i++) {
         const square = document.createElement('div');
@@ -62,9 +60,12 @@ if (layout[i] === 0) {
 
 createBoard();
 
-   //use switch statements
+   // down - 40
+// up key - 38
+// left - 37
+// right - 39
 
-   //starting position of pacman 
+//starting position of pacman 
 let pacmanCurrentIndex = 490
 squares[pacmanCurrentIndex].classList.add('pacman')
 
@@ -117,6 +118,8 @@ function control(e) {
     squares[pacmanCurrentIndex].classList.add('pacman')
     pacDotEaten()
     powerPelletEaten()
+    checkForWin()
+    checkForGameOver()
 }
 document.addEventListener('keyup', control)
 
@@ -232,4 +235,16 @@ function checkForGameOver() {
     //tell user the game is over   
     scoreDisplay.innerHTML = 'You LOSE'
      }
+}
+
+//check for win
+function checkForWin() {
+    if (score === 274) {
+        //stop each ghost
+        ghosts.forEach(ghost => clearInterval(ghost.timerId))
+        //remove the eventListener for the control function
+        document.removeEventListener('keyup', control)
+        //tell our user we have won
+        scoreDisplay.innerHTML = 'You WON!'
+    }
 }
