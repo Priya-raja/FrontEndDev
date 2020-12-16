@@ -100,6 +100,25 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### December 10: R1Day40 Asyncronous function in ES6
  Learning: Learned well how to use promise,async and await in ES6.
  
+ ### December 11: R1Day41 Started with Pacman game
+ Learning: Created divs using javascript.
+ ### December 12: R1Day42 Pacman game eating dots
+ Learning: Learned creating a game board and tried many different ways.
+ 
+ ### December 13: R1Day43Aimations in pacman game
+ Learning: Scary ghosts 
+ 
+ ### December 14: R1Day44 Completed Pacman game.
+ Learning: Learned about coding for ghosts in game.
+ 
+ ### December 15: R1Day45 Did Codewars challenge and learned web architecture basics
+ Learning: Concepts of how the web works and protocols.
+ ### December 16: R1Day46 Did fecth and json in scrimba
+ Learning: Used fetch and json in local machine after installing some packages
+ 
+ 
+ 
+ 
  
  
  
