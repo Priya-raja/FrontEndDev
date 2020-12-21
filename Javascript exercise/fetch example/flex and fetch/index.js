@@ -13,12 +13,12 @@ function displayColor(colors) {
 
 
 
-async function Getcolors(){
-  const colorurl = await fetch("https://api.noopschallenge.com/hexbot?count=25")
+async function Getcolors(countColors){
+  const colorurl = await fetch(`https://api.noopschallenge.com/hexbot?count=${countColors}`)
   let result = await colorurl.json();
   let colors = result.colors;
   displayColor(colors);
 
 }
-
-Getcolors();
+let countColors = 100;
+Getcolors(countColors);
