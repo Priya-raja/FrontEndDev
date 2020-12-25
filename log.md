@@ -113,8 +113,33 @@ I've learned how to think logically and apply javascript and positioning in css.
  
  ### December 15: R1Day45 Did Codewars challenge and learned web architecture basics
  Learning: Concepts of how the web works and protocols.
+ 
  ### December 16: R1Day46 Did fecth and json in scrimba
  Learning: Used fetch and json in local machine after installing some packages
+ 
+ ### December 17: R1Day47 Coded a joke app using async and fetch.
+ Learning: Did a bunch of async fetch exercises. Coded simple react todo app.
+ 
+ ### December 18: R1Day48 Used advance level of fetch for uploading files and getting form data.  
+ Learning: Followed scrimba for using punk api in a fetch api 
+ 
+ ### December 19: R1Day49 Coded a Todo App in react using an external js data and did some styling.
+ Learning: Class based components.
+ 
+ ### December 20: R1Day50 Learned class based components and states.
+ Learning: Stared building my personal portfolio and practised class based components.
+ 
+ ### December 21: R1Day51 Events in react lifecycle
+ Learning: Coded css grid with fetch api
+ 
+ ### December 22: R1Day52 Learned react hooks
+ Learning: Used state hooks which was easier that using this.state{} as objects. Link in react projects repo in git gub.
+ 
+ ### December 23: R1Day53 Coded forms using handlechages
+ Learning: Learned again about destructuring arrays and different form components.
+ 
+ ### December 24: R1Day54 Did Codewars challenge and recreated meme generator in react
+ Learning: Learned different ways of solving a problem in codewars. A good practice of react app using state
  
  
  
