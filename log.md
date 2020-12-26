@@ -141,6 +141,12 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### December 24: R1Day54 Did Codewars challenge and recreated meme generator in react
  Learning: Learned different ways of solving a problem in codewars. A good practice of react app using state
  
+ ### December 25: R1Day54 Deployed meme generator app in netlify
+ Learning: Learned to add images in react and read more about react hooks.
+ 
+ ### December 26: R1Day56 Coded word count app
+ Learning: Got to learn more about react hooks, where to use useEffect and adding css to app.
+ 
  
  
  
