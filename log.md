@@ -147,6 +147,11 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### December 26: R1Day56 Coded word count app
  Learning: Got to learn more about react hooks, where to use useEffect and adding css to app.
  
+ ### December 27: R1Day57 Refactored the code in typing speed app
+ Learning: Learned to disable a textbox before clicking the start button.
+ Changed the focus to textbox.
+ 
+ 
  
  
  
