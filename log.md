@@ -151,6 +151,11 @@ I've learned how to think logically and apply javascript and positioning in css.
  Learning: Learned to disable a textbox before clicking the start button.
  Changed the focus to textbox.
  
+ ### December 28: R1Day58 Learned react router basics
+ Learning: Revised more of context and learned a nvbarbar in router.
+ 
+ 
+ 
  
  
  
