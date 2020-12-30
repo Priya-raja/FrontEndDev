@@ -158,6 +158,13 @@ I've learned how to think logically and apply javascript and positioning in css.
  Learning: useParams, nested router.
  
  
+ ### December 30: R1Day60 Ended with react router 
+ Learning: useRouteMatch,useHistory, useLocation
+ 
+ 
+ 
+ 
+ 
  
  
  
