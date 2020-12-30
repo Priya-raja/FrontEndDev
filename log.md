@@ -154,6 +154,11 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### December 28: R1Day58 Learned react router basics
  Learning: Revised more of context and learned a nvbarbar in router.
  
+ ### December 29: R1Day59 Continue react router
+ Learning: useParams, nested router.
+ 
+ 
+ 
  
  
  
