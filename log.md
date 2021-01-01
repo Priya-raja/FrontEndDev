@@ -157,9 +157,13 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### December 29: R1Day59 Continue react router
  Learning: useParams, nested router.
  
- 
  ### December 30: R1Day60 Ended with react router 
  Learning: useRouteMatch,useHistory, useLocation
+ 
+ ### December 31: R1Day61 Started with a Picsum app in react.
+ Learning: Learning context,router and hooks by making an app
+ 
+ 
  
  
  
