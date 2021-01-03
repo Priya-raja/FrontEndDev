@@ -163,6 +163,16 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### December 31: R1Day61 Started with a Picsum app in react.
  Learning: Learning context,router and hooks by making an app
  
+ ### January 1 2021: R1Day62 coded a modern sidebar menu
+ Learning: Learned a new round corner side bar menu to code in javascript
+ 
+ ### January 2 2021: R1Day63 Showed up gallery of photos 
+ Learning: LEarned to use useEffect function to hover a heart symbol in app.
+ 
+ ### January 3 2021: R1Day64 Continue with Picusm app
+ Learning: Learned to toggle a favourite image.
+ 
+ 
  
  
  
