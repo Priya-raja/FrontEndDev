@@ -157,20 +157,38 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### December 29: R1Day59 Continue react router
  Learning: useParams, nested router.
  
- ### December 30: R1Day60 Ended with react router 
- Learning: useRouteMatch,useHistory, useLocation
+ ### December 30: R1Day60 Ended with react router.
+ Learning: useRouteMatch,useHistory, useLocation.
  
  ### December 31: R1Day61 Started with a Picsum app in react.
- Learning: Learning context,router and hooks by making an app
+ Learning: Learning context,router and hooks by making an app.
  
- ### January 1 2021: R1Day62 coded a modern sidebar menu
- Learning: Learned a new round corner side bar menu to code in javascript
+ ### January 1 2021: R1Day62 coded a modern sidebar menu.
+ Learning: Learned a new round corner side bar menu to code in javascript.
  
- ### January 2 2021: R1Day63 Showed up gallery of photos 
+ ### January 2 2021: R1Day63 Showed up gallery of photos.
  Learning: LEarned to use useEffect function to hover a heart symbol in app.
  
- ### January 3 2021: R1Day64 Continue with Picusm app
+ ### January 3 2021: R1Day64 Continue with Picusm app.
  Learning: Learned to toggle a favourite image.
+ 
+ ### January 4 2021: R1Day65 completed the the picsum SPA app in react.
+ Learning: Completed the react e-commerce app. Learned about using context in this app.
+ 
+ ### January 5 2021: R1Day66 Going through react fundamentals and taking notes.
+ Learning: Practising more of advance react exercises.
+ 
+ ### January 6 2021: R1Day67 coded small exercises with useState.
+ Learning: Practised more of useState.
+ 
+ ### January 7 2021: R1Day68 Continue with Picusm app.
+ Learning: Learned to toggle a favourite image.
+ 
+ 
+ 
+ 
+
+
  
  
  
