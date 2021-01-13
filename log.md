@@ -183,6 +183,7 @@ I've learned how to think logically and apply javascript and positioning in css.
  
  ### January 7 2021: R1Day68 Continue with Picusm app.
  Learning: Learned to toggle a favourite image.
+ ### January 8 2021: R1Day 74 made a toggleable component.
  
  
  
