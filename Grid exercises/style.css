@@ -9,3 +9,23 @@ body {
     grid-template-columns: 300px 100px 100px;
     grid-template-rows: 350px 500px;
 }
+
+.grid {
+    display: grid;
+    grid-template: 100px 100px 100px / 200px 200px 200px;
+  }
+  
+  .grid-item {
+    background: #B823C1;
+    color: white;
+    padding: 1em 2em;
+    border: 2px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .two {
+      background: #FF5670;
+  }
