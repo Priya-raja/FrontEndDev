@@ -187,6 +187,12 @@ I've learned how to think logically and apply javascript and positioning in css.
  
  ### January 14 2021: R1Day 75 Started learning about Reducers.
  
+ ### January 15 2021: R1Day 76 LEarned grid tmplate column and rows.
+ 
+ ### January 16 2021: R1Day 77 Javascript map,reduce and filter practise.
+ 
+ 
+ 
  
  
  
