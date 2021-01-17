@@ -191,6 +191,10 @@ I've learned how to think logically and apply javascript and positioning in css.
  
  ### January 16 2021: R1Day 77 Javascript map,reduce and filter practise.
  
+ ### January 17 2021: R1Day 78 Did a even number filter method in map,reduce and filter.
+ 
+ 
+ 
  
  
  
