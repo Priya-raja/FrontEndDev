@@ -193,6 +193,7 @@ I've learned how to think logically and apply javascript and positioning in css.
  
  ### January 17 2021: R1Day 78 Did a even number filter method in map,reduce and filter.
  
+ ### January 18 2021: R1Day 79 Wrote a eat cake function using reducers.
  
  
  
