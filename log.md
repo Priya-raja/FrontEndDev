@@ -195,6 +195,10 @@ I've learned how to think logically and apply javascript and positioning in css.
  
  ### January 18 2021: R1Day 79 Wrote a eat cake function using reducers.
  
+  ### January 19 2021: R1Day 80 Wrote a methods using dispatch and state in reducers.
+ 
+ 
+ 
  
  
  
