@@ -199,6 +199,9 @@ I've learned how to think logically and apply javascript and positioning in css.
   
  ### January 20 2021: R1Day 81 Custome hooks using reducers.
  
+ ### January 21 2021: R1Day 82 Used fetch api call with reducer.
+ 
+ 
  
  
  
