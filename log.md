@@ -201,6 +201,11 @@ I've learned how to think logically and apply javascript and positioning in css.
  
  ### January 21 2021: R1Day 82 Used fetch api call with reducer.
  
+ ### January 22 2021: R1Day 83 Learning to use css grid styles
+ 
+ 
+ 
+ 
  
  
  
