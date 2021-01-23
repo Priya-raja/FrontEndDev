@@ -203,6 +203,9 @@ I've learned how to think logically and apply javascript and positioning in css.
  
  ### January 22 2021: R1Day 83 Learning to use css grid styles
  
+ ### January 23 2021: R1Day 84 Used compound components in react.
+ 
+ 
  
  
  
