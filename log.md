@@ -207,6 +207,8 @@ I've learned how to think logically and apply javascript and positioning in css.
  
  ### January 24 2021: R1Day 85 Wrote a function for disabling tabs in accordian.
  
+ ### January 25 2021: R1Day 86 Broke the components and wrapped in a AccordionCC tag.
+ 
  
  
  
