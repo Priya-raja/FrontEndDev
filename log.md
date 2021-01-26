@@ -209,6 +209,10 @@ I've learned how to think logically and apply javascript and positioning in css.
  
  ### January 25 2021: R1Day 86 Broke the components and wrapped in a AccordionCC tag.
  
+ ### January 26 2021: R1Day 87 Shared state with contextAPI.
+ 
+ 
+ 
  
  
  
