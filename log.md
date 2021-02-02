@@ -213,7 +213,17 @@ I've learned how to think logically and apply javascript and positioning in css.
  
  ### January 28 2021: R1Day 89 Did React redux and react native.
  
- ### January 29 2021: R1Day 90 Practice javascript for interview
+ ### January 29 2021: R1Day 90 Practice javascript for interview.
+ 
+ ### January 30 2021: R1Day 91 React redux store and subscriber method.
+ 
+ ### January 31 2021: R1Day 92 Learned about React Native.
+ 
+ ### February 1 2021: R1Day 93 Learned about Redux saga and context API.
+ 
+ ### February 2 2021: R1Day 94 Did Some exercises with git.
+ 
+ 
  
  
  
