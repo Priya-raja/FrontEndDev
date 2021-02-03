@@ -222,6 +222,7 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### February 1 2021: R1Day 93 Learned about Redux saga and context API.
  
  ### February 2 2021: R1Day 94 Did Some exercises with git.
+### February 3 2021: R1Day 95 Did Javascript magic squares.
  
  
  
