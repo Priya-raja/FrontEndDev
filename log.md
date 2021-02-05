@@ -226,6 +226,8 @@ I've learned how to think logically and apply javascript and positioning in css.
  ### February 3 2021: R1Day 95 Did Javascript magic squares.
 
 ### February 4 2021: R1Day 96 Router for Netflix clone project.
+
+### February 5 2021: R1Day 97 Made a flight search app
  
  
  
