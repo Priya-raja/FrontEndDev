@@ -228,6 +228,10 @@ I've learned how to think logically and apply javascript and positioning in css.
 ### February 4 2021: R1Day 96 Router for Netflix clone project.
 
 ### February 5 2021: R1Day 97 Made a flight search app
+
+### February 6 2021: R1Day 98 Created a jumbotron style component.
+
+
  
  
  
