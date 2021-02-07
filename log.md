@@ -231,6 +231,9 @@ I've learned how to think logically and apply javascript and positioning in css.
 
 ### February 6 2021: R1Day 98 Created a jumbotron style component.
 
+### February 7 2021: R1Day 99 Learned how to make a component modular.
+
+
 
  
  
