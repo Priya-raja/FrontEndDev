@@ -233,6 +233,10 @@ I've learned how to think logically and apply javascript and positioning in css.
 
 ### February 7 2021: R1Day 99 Learned how to make a component modular.
 
+### February 8 2021: R1Day 100 Installed dependencies for netflix clone app.
+
+
+
 
 
  
